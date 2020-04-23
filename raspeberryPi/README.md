@@ -17,8 +17,9 @@ $ python3 --version
 Python 3.6.5
 
 If Python 3 not installed, then follow the instructions on 
+```
 * [Python3 Installation](https://samx18.io/blog/2018/09/05/python3_raspberrypi.html) - Installing Python 3 on RPI
-
+```
 $ pip3 --version
 pip 19.1.1
 
