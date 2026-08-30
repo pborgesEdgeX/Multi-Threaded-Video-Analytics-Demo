@@ -37,17 +37,19 @@ With this demo, we are building a complete producer to consumer application for 
 
 ### Installing
 
-To get your code up and running, first let's clone the repo locally then compose the project:
+To get your code up and running, first clone the repo locally, then run the streaming script from this folder:
 
 ```
-$ cd /src/bin/
+$ cd raspberryPi
 $ python3 main.py
 ```
-If you don't have Python3 as in the default path of your bash profile, then activate the virtual environment by:
+
+If you want to isolate dependencies, create your own virtual environment first (it is intentionally not committed to the repo):
 
 ```
-$ cd /src/bin/
-$ source activate
+$ cd raspberryPi
+$ python3 -m venv venv
+$ source venv/bin/activate
 $ python3 main.py
 ```
 
